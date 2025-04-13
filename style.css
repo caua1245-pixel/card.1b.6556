@@ -1,0 +1,126 @@
+*{
+    margin: 5vh;
+    padding: 2%;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: "Arial";
+        text-align: center;
+        margin-top: 5%;
+        gap: 16px;
+        background-image: url("Card engenheiro")
+        
+        
+    }
+    .card{
+    background-color: #6d6b6b;
+    width: 676px;
+    height: 470px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #575757aa;
+    padding: 20px;
+    }
+   
+        button {
+            display: block;
+            margin: 0 auto;
+            margin-left: 25%;
+           margin-right: 25%;
+        }
+           .card img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; 
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px auto; /
+          }
+          .card h1, .card p {
+            color: white;
+            margin-bottom: 16px;
+          }
+          .card h2 {
+            font-size: 18px; 
+            color: white; 
+            margin-bottom: 12px;
+          }
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          
+          body {
+            background-color: darkgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: "Arial", sans-serif;
+            text-align: center;
+            background-image: url("Card engenheiro");
+            background-size: cover;
+            background-position: center;
+          }
+          
+          .card {
+            background-color: #6d6b6b;
+            width: 676px;
+            padding: 30px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+          }
+          
+          .card:hover {
+            transform: translateY(-10px); /* Efeito de elevação ao passar o mouse */
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5); /* Sombra mais forte ao passar o mouse */
+          }
+          
+          .card img {
+            width: 180px;
+            height: 180px;
+            background-color: #f39c12;
+            border-radius: 50%;
+            object-fit: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            margin: 0 auto 20px auto; 
+            object-fit: cover;
+          }
+          
+          .card h1, .card h2, .card p {
+            color: white;
+            margin-bottom: 16px;
+          }
+          
+          .card h2 {
+            font-size: 18px; /* Diminuindo um pouco o tamanho da fonte */
+            margin-bottom: 20px; /* Um espaçamento mais amplo abaixo */
+          }
+          
+          .card button {
+            background-color: #f1c40f;
+            border: none;
+            padding: 16px 30px; /* Aumentando o tamanho do botão */
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px; /* Aumentando o tamanho da fonte */
+            color: white;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin: 0 auto;
+            display: block;
+          }
+          
+          .card button:hover {
+            background-color: #e0b90f; /* Cor de fundo muda ao passar o mouse */
+            transform: scale(1.05); /* Efeito de aumento suave */
+          }
+          
